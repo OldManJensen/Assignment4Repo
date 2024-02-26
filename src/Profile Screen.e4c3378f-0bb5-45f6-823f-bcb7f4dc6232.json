@@ -57,6 +57,90 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Sign Out",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": true,
+                "X": 31,
+                "Y": 594,
+                "RelativeX": 31,
+                "RelativeY": 594,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "1.6239264072516026%",
+                    "top": "83.75643775061768%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "e4c3378f-0bb5-45f6-823f-bcb7f4dc6232",
+                "position": "absolute",
+                "edgeOffsets": 594
+            },
+            "children": [],
+            "id": "fe459bf2-a598-4278-9137-3ad99744ce33",
+            "thunkableVersion": 446,
+            "name": "SIgn out button"
+        },
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "e4c3378f-0bb5-45f6-823f-bcb7f4dc6232",
+                "Y": 547.8646240234375,
+                "RelativeX": 0,
+                "RelativeY": 547,
+                "position": "absolute",
+                "edgeOffsets": 547.8646240234375,
+                "style": {
+                    "position": "absolute",
+                    "left": "22.3111083984375%",
+                    "top": "13.922732237396927%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "a909d557-2e53-4083-9c34-5183145544e7",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner2"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
